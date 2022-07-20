@@ -3,8 +3,13 @@ import os
 data = 'data'
 
 # greenhouse_dataset
+GreenhouseClimate1 = os.path.join(data, 'greenhouse_dataset', 'GreenhouseClimate1')
 
 # m5_forecasting_accuracy
+sales_train_validation = os.path.join(data, 'm5_forecast_accuracy', 'sales_train_validation.csv')
+sales_train_evaluation = os.path.join(data, 'm5_forecast_accuracy', 'sell_prices.csv')
+calendar = os.path.join(data, 'm5_forecast_accuracy', 'calendar.csv')
+sell_prices = os.path.join(data, 'm5_forecast_', 'sell_prices.csv')
 
 # nifty_50_stock_market_data_2000_2020
 
@@ -62,5 +67,3 @@ Region_CAL = os.path.join(data, 'us_energy_consumption', 'Region_CAL.xlsx')
 
 # WHO cases
 
-sales_training_validation = os.path.join(data, 'm5_forecast_accuracy', 'sales_training_validation')
-sales_train_evaluation = os.path.join(data, 'm5_forecast_accuracy', 'sell_prices.csv')
