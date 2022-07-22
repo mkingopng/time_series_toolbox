@@ -10,20 +10,22 @@ Docs are great, and we should and do read them, but often I feel that there isn'
 problems, It is left to the user to figure out. This could be used as a quick look-up or cheat sheet for 
 time series.
 
-# contents
-- ts_0a: The basics
-- ts_0b: a simple example (eda)
-- ts_0c: a simple example
-- ts_1a: smoothing methods
-- ts_1b: the prophet
-- ts_2: linear vision
-- ts_3: time series for finance
-- ts_4a: sales and demand forecasting (statistical approach)
-- ts_4b: sales and demand forecasting (machine learning approach)
-- ts_4c: sales and demand forecasting (a hybrid approach)
-- ts_5a: automatic for the people
-- ts_5b: kats
-- ts_5c: darts
-- ts_6: deep learning for time series: RNN & Friends
-- ts_7: survival analysis
+# Contents
+- **ts_0a**: The basics 🗸
+- **ts_0b**: a simple example (eda) 🗸
+- **ts_0c**: a simple example (non-deep) 🗸
+- **ts_0d**: a simple example (deep) 🗸
+- **ts_1a**: smoothing methods 🗸
+- **ts_1b**: the prophet - how to suppress unwanted messages? why are some results inconsistent with the kaggle notebook?
+- **ts_2**: linear vision 🗸
+- **ts_3**: time series for finance - key errors
+- **ts_4a**: sales and demand forecasting (statistical approach) 🗸
+- **ts_4b**: sales and demand forecasting (machine learning approach) 🗸
+- **ts_4c**: sales and demand forecasting (a hybrid approach)
+- **ts_5a**: automatic for the people
+- **ts_5b**: kats - dependency problems
+- **ts_5c**: darts - dependency problems
+- **ts_6**: deep learning for time series: RNN & Friends
+- **ts_7**: survival analysis - dependency problems
+- **ts_8**: TFT temporal fusion transformers or transformers for timeseries
 
