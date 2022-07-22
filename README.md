@@ -1,3 +1,5 @@
+<img src="images/time series analysis.png"/>
+
 # time_series_toolbox
 ### a comprehensive toolbox of time series methods for all imaginable applications.
 
@@ -12,7 +14,7 @@ time series.
 - ts_0a: The basics
 - ts_0b: a simple example (eda)
 - ts_0c: a simple example
-- ts_1a: smoothing methods - **problem with cell 14**
+- ts_1a: smoothing methods
 - ts_1b: the prophet
 - ts_2: linear vision
 - ts_3: time series for finance
