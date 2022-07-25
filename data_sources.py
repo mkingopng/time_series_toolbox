@@ -9,9 +9,9 @@ GreenhouseClimate1 = os.path.join(data, 'greenhouse_dataset', 'GreenhouseClimate
 
 # m5_forecasting_accuracy
 sales_train_validation = os.path.join(data, 'm5_forecasting_accuracy', 'sales_train_validation.csv')
-sales_train_evaluation = os.path.join(data, 'm5_forecast_accuracy', 'sell_prices.csv')
-calendar = os.path.join(data, 'm5_forecast_accuracy', 'calendar.csv')
-sell_prices = os.path.join(data, 'm5_forecast_', 'sell_prices.csv')
+sales_train_evaluation = os.path.join(data, 'm5_forecasting_accuracy', 'sell_prices.csv')
+calendar = os.path.join(data, 'm5_forecasting_accuracy', 'calendar.csv')
+
 
 # nifty_50_stock_market_data_2000_2020
 stocks = os.path.join(data, 'nifty_50_stock_market_data_2000_2020', f'{stock_name}.csv')
@@ -66,7 +66,6 @@ Region_CAL = os.path.join(data, 'us_energy_consumption', 'Region_CAL.xlsx')
 
 # US energy consumption
 
-
 # ventilator pressure prediction
 
 # WHO cases
@@ -77,5 +76,6 @@ train_labels = os.path.join(data, 'tps_april_2022', 'tps_apr22_train_labels.csv'
 test = os.path.join(data, 'tps_april_2022', 'tps_apr22_test.csv')
 submission = os.path.join('data', 'tabular_playground_series_april_2022', 'sample_submission.csv')
 
-
-
+# demand forecasting kernals only
+demand_forecasting_training = os.path.join(data, 'demand_forecasting_kernals_only', 'demand_forecasting_train.csv')
+demand_forecasting_test = os.path.join(data, 'demand_forecasting_kernals_only' ,'demand_forecasting_test.csv')
