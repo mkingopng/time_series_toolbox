@@ -2,21 +2,24 @@ import os
 
 data = 'data'
 
+stock_name = 'TATASTEEL'
+
 # greenhouse_dataset
 GreenhouseClimate1 = os.path.join(data, 'greenhouse_dataset', 'GreenhouseClimate1')
 
 # m5_forecasting_accuracy
-sales_train_validation = os.path.join(data, 'm5_forecast_accuracy', 'sales_train_validation.csv')
+sales_train_validation = os.path.join(data, 'm5_forecasting_accuracy', 'sales_train_validation.csv')
 sales_train_evaluation = os.path.join(data, 'm5_forecast_accuracy', 'sell_prices.csv')
 calendar = os.path.join(data, 'm5_forecast_accuracy', 'calendar.csv')
 sell_prices = os.path.join(data, 'm5_forecast_', 'sell_prices.csv')
 
 # nifty_50_stock_market_data_2000_2020
-
+stocks = os.path.join(data, 'nifty_50_stock_market_data_2000_2020', f'{stock_name}.csv')
 # norway_bicycle
 
 # partial visuelle
-
+partial_visuelle_train = os.path.join(data, 'partial_visuelle', 'partial_visuelle_train.csv')
+partial_visuelle_test = os.path.join(data, 'partial_visuelle', 'partial_visuelle_test.csv')
 # telco customer churn
 
 # ts_data_1
@@ -63,7 +66,16 @@ Region_CAL = os.path.join(data, 'us_energy_consumption', 'Region_CAL.xlsx')
 
 # US energy consumption
 
+
 # ventilator pressure prediction
 
 # WHO cases
+
+# april 2020 tabular playground
+train = os.path.join(data, 'tps_april_2022', 'tps_apr22_train.csv')
+train_labels = os.path.join(data, 'tps_april_2022', 'tps_apr22_train_labels.csv')
+test = os.path.join(data, 'tps_april_2022', 'tps_apr22_test.csv')
+submission = os.path.join('data', 'tabular_playground_series_april_2022', 'sample_submission.csv')
+
+
 
