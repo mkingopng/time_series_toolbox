@@ -1,5 +1,4 @@
-<img src="images/time series analysis.png"/>
-
+![](images/time series analysis.png)
 # time_series_toolbox
 ### a comprehensive toolbox of time series methods for all imaginable applications.
 
@@ -21,7 +20,7 @@ time series.
 - **ts_3**: time series for finance - key errors
 - **ts_4a**: sales and demand forecasting (statistical approach) 🗸
 - **ts_4b**: sales and demand forecasting (machine learning approach) 🗸
-- **ts_4c**: sales and demand forecasting (a hybrid approach)
+- **ts_4c**: sales and demand forecasting (a hybrid approach) 🗸
 - **ts_5a**: automatic for the people
 - **ts_5b**: kats - dependency problems
 - **ts_5c**: darts - dependency problems

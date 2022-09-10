@@ -2,8 +2,6 @@ import os
 
 data = 'data'
 
-stock_name = 'TATASTEEL'
-
 # greenhouse_dataset
 GreenhouseClimate1 = os.path.join(data, 'greenhouse_dataset', 'GreenhouseClimate1')
 
@@ -12,10 +10,12 @@ sales_train_validation = os.path.join(data, 'm5_forecasting_accuracy', 'sales_tr
 sales_train_evaluation = os.path.join(data, 'm5_forecasting_accuracy', 'sell_prices.csv')
 calendar = os.path.join(data, 'm5_forecasting_accuracy', 'calendar.csv')
 
-
 # nifty_50_stock_market_data_2000_2020
+stock_name = 'TATASTEEL'
 stocks = os.path.join(data, 'nifty_50_stock_market_data_2000_2020', f'{stock_name}.csv')
+
 # norway_bicycle
+bikerides_day = os.path.join(data, 'norway_bicycle', 'bikerides_day.csv')
 
 # partial visuelle
 partial_visuelle_train = os.path.join(data, 'partial_visuelle', 'partial_visuelle_train.csv')
@@ -59,23 +59,26 @@ tesla_prices_5y = os.path.join(data, 'ts_data_1', 'tesla_prices_5y.csv')
 us_covid = os.path.join(data, 'ts_data_1', 'us_covid.csv')
 us_energy = os.path.join(data, 'ts_data_1', 'us_energy.csv')
 wiki_log_R = os.path.join(data, 'ts_data_1', 'wiki_log_R.csv')
-WHO_full_data2003 = os.path.join(data, 'who_cases', 'WHO_full_data2003.csv')
+
+# hourly energy consumption
 pjm_hourly_est = os.path.join(data, 'hourly_energy_consumption', 'pjm_hourly_est.csv')
-bikerides_day = os.path.join(data, 'norway_bicycle', 'bikerides_day.csv')
-Region_CAL = os.path.join(data, 'us_energy_consumption', 'Region_CAL.xlsx')
 
 # US energy consumption
+Region_CAL = os.path.join(data, 'us_energy_consumption', 'Region_CAL.xlsx')
 
 # ventilator pressure prediction
 
 # WHO cases
+WHO_full_data2003 = os.path.join(data, 'who_cases', 'WHO_full_data2003.csv')
 
 # april 2020 tabular playground
 train = os.path.join(data, 'tps_april_2022', 'tps_apr22_train.csv')
 train_labels = os.path.join(data, 'tps_april_2022', 'tps_apr22_train_labels.csv')
 test = os.path.join(data, 'tps_april_2022', 'tps_apr22_test.csv')
-submission = os.path.join('data', 'tabular_playground_series_april_2022', 'sample_submission.csv')
+submission = os.path.join(data, 'tps_april_2022', 'sample_submission.csv')
 
-# demand forecasting kernals only
+# demand forecasting kernels only
 demand_forecasting_training = os.path.join(data, 'demand_forecasting_kernals_only', 'demand_forecasting_train.csv')
 demand_forecasting_test = os.path.join(data, 'demand_forecasting_kernals_only' ,'demand_forecasting_test.csv')
+
+# claim number: 1181229051
