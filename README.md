@@ -10,6 +10,7 @@ problems, It is left to the user to figure out. This could be used as a quick lo
 time series.
 
 # Contents
+## From time series with Konrad (by Konrad B and Abishek Thakur)
 - **ts_0a**: The basics 🗸
 - **ts_0b**: a simple example (eda) 🗸
 - **ts_0c**: a simple example (non-deep) 🗸
@@ -22,9 +23,13 @@ time series.
 - **ts_4b**: sales and demand forecasting (machine learning approach) 🗸
 - **ts_4c**: sales and demand forecasting (a hybrid approach) 🗸
 - **ts_5a**: automatic for the people
+
+### NB: ts_5 - ts_8 are in separate projects and environment due to dependency management issues with the kats, darts, and TFT
 - **ts_5b**: kats - dependency problems
 - **ts_5c**: darts - dependency problems
 - **ts_6**: deep learning for time series: RNN & Friends
 - **ts_7**: survival analysis - dependency problems
 - **ts_8**: TFT temporal fusion transformers or transformers for timeseries
 
+## data science handbook (by Jake Van Der Plas)
+- **3.11** - working with time series
